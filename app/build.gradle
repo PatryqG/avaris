@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'pl.avaris.manager'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'pl.avaris.manager'
+        minSdk 23
+        targetSdk 35
+        versionCode 3
+        versionName '1.2'
+    }
+}
